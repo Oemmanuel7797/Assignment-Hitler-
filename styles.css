@@ -1,0 +1,164 @@
+/* Oluwajuwon Emmanuel - 8907797 */
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Selectors */
+.form-control {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#Biography {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #1c82ff;
+}
+
+h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #1c82ff;
+}
+
+/* Root Element */
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Height & Width, Box-Model */
+* {
+    box-sizing: border-box;
+}
+
+p, blockquote, h1, h2, h3, ul, li, img, iframe {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+/* Layout */
+#main {
+    float: left;
+    width: 70%;
+}
+
+#aside {
+    float: right;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}
+
+/* Header & Footer */
+header h1 {
+    font-size: 3rem;
+}
+
+footer {
+    font-size: 0.8rem;
+    background: linear-gradient(to right, #fcfc1c, #02060b);
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main Elements */
+main h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+q {
+    font-variant: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Times New Roman', serif;
+    color: #666;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+figure, img {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+    color: #555;
+}
+
+iframe {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+aside h3 {
+    font-variant: small-caps;
+    color: #333;
+    text-align: center;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+aside ul li a:hover {
+    color: #555;
+}
+
+label {
+    font-variant: normal;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+
+    #main, #aside {
+        float: none;
+        width: 100%;
+    }
+
+    body {
+        padding: 1rem;
+    }
+}
